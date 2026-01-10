@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(228, 245, 245);
+    background-color: rgb(238, 243, 243);
    
  
 }
@@ -24,6 +24,47 @@ body{
     padding: min(2rem, 5%);
     border-radius: 1.5rem;
    box-shadow: 4px 4px 3px rgba(26, 25, 25, 0.5);
+   background-color: white;
+}
+#profile_pic{
+    border-radius: 50%;
+}
+h2{
+   font-style: bold;
+   font-size: 1.9rem;
+   padding-top: .9rem;
+}
+h3{
+color: rgb(92, 91, 91);
+font-size: 1rem;
+padding: .2rem;
+font-family: 'Times New Roman', Times, serif; 
+}
+p{
+    padding: 1rem;
+    font-size: 1.1rem;
+    
+}
+
+.btn{
+    padding: .9rem;
+    font-size: 1rem;
+     background-color: rgb(9, 141, 218);
+     border: none;
+     border-radius: .2rem;
+     margin-top: .9rem;
+     color: white;
+     width: 9rem;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(127, 131, 143);
+}
+.socialmediahandles a{
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 1.1rem ;
+    color: rgb(17, 120, 218);
 }
    
      
